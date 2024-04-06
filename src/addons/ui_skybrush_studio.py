@@ -70,6 +70,8 @@ from sbstudio.plugin.operators import (
     AddMarkersFromZippedCSVOperator,
     AppendFormationToStoryboardOperator,
     ApplyColorsToSelectedDronesOperator,
+    CreateShapeOperator,
+    
     CreateFormationOperator,
     CreateNewScheduleOverrideEntryOperator,
     CreateNewStoryboardEntryOperator,
@@ -117,12 +119,16 @@ from sbstudio.plugin.operators import (
 from sbstudio.plugin.panels import (
     DroneShowAddonObjectPropertiesPanel,
     ExportPanel,
+    NewPanel,
+   
     FormationsPanel,
+     KamalPanel,
     StoryboardEditor,
     LEDControlPanel,
     LightEffectsPanel,
     SafetyCheckPanel,
     SwarmPanel,
+    
     TransitionEditorFromCurrentFormation,
     TransitionEditorIntoCurrentFormation,
 )
@@ -173,6 +179,8 @@ types = (
 operators = (
     PrepareSceneOperator,
     CreateFormationOperator,
+    CreateShapeOperator,
+    
     SelectFormationOperator,
     DeselectFormationOperator,
     UpdateFormationOperator,
@@ -231,6 +239,7 @@ menus = (GenerateMarkersMenu,)
 #: our tabs appear in the sidebar of the 3D view.
 panels = (
     SwarmPanel,
+    KamalPanel,
     FormationsPanel,
     StoryboardEditor,
     TransitionEditorFromCurrentFormation,
@@ -239,6 +248,7 @@ panels = (
     LightEffectsPanel,
     SafetyCheckPanel,
     ExportPanel,
+    NewPanel,
     DroneShowAddonObjectPropertiesPanel,
 )
 

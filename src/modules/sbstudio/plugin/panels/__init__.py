@@ -6,6 +6,8 @@ from .object_props import DroneShowAddonObjectPropertiesPanel
 from .safety_check import SafetyCheckPanel
 from .storyboard_editor import StoryboardEditor
 from .swarm import SwarmPanel
+from .kamal import KamalPanel
+from .newpanel import NewPanel
 from .transition_editor import (
     TransitionEditorFromCurrentFormation,
     TransitionEditorIntoCurrentFormation,
@@ -20,6 +22,8 @@ __all__ = (
     "SafetyCheckPanel",
     "StoryboardEditor",
     "SwarmPanel",
+    "KamalPanel",
+    "NewPanel",
     "TransitionEditorFromCurrentFormation",
     "TransitionEditorIntoCurrentFormation",
 )

@@ -50,6 +50,7 @@ from .update_time_markers_from_storyboard import UpdateTimeMarkersFromStoryboard
 from .update_frame_range_from_storyboard import UpdateFrameRangeFromStoryboardOperator
 from .use_vgroup_for_formation import UseSelectedVertexGroupForFormationOperator
 from .validate_trajectories import ValidateTrajectoriesOperator
+from .create_shape import CreateShapeOperator
 
 __all__ = (
     "AppendFormationToStoryboardOperator",
@@ -59,6 +60,8 @@ __all__ = (
     "CreateNewScheduleOverrideEntryOperator",
     "CreateNewStoryboardEntryOperator",
     "CreateTakeoffGridOperator",
+    "CreateShapeOperator",
+
     "DACExportOperator",
     "DeselectFormationOperator",
     "DetachMaterialsFromDroneTemplateOperator",
