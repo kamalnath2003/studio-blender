@@ -40,6 +40,7 @@ from sbstudio.plugin.operators import (
 )
 from sbstudio.plugin.stats import get_drone_count
 
+
 __all__ = ("FormationsPanel",)
 
 
@@ -50,6 +51,7 @@ class NewPanel(Panel):
     bl_region_type = "UI"
     bl_category = "Formations"
 
+   
     @classmethod
     def poll(cls, context):
         return context.scene.skybrush.formations
